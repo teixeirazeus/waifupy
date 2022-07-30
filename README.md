@@ -4,7 +4,7 @@ Unofficial minimal python wrapper for waifu.pics API.
 ## Installation
 
 ```bash
-pip install waifupy
+pip install git+https://github.com/teixeirazeus/waifupy
 ```
 
 ## Usage
