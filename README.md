@@ -1,4 +1,6 @@
 ![banner](https://raw.githubusercontent.com/teixeirazeus/waifupy/master/images/waifupy_header.png)  
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecb1a0c929044119bfc32a5e987a095a)](https://www.codacy.com/gh/teixeirazeus/waifupy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=teixeirazeus/waifupy&amp;utm_campaign=Badge_Grade)
+
 Unofficial minimal python wrapper for waifu.pics API.
 
 ## Installation
