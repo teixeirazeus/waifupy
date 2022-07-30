@@ -8,13 +8,13 @@ class AioWaifuPyClient:
         Asynchronous WaifyPyClient class constructor.
         """
         self.session = session or aiohttp.ClientSession()
-
+    
     async def close(self):
         """
         Close the session.
         """
         await self.session.close()
-
+    
     async def get_sfw_image(self, category='waifu'):
         """
         Get a random SFW image from a specified category.

@@ -8,13 +8,13 @@ class WaifuPyClient:
         WaifyPyClient class constructor.
         """
         self.session = session or requests.Session()
-
+    
     def close(self):
         """
         Close the session.
         """
         self.session.close()
-
+    
     def get_sfw_image(self, category='waifu'):
         """
         Get a random SFW image from a specified category.
