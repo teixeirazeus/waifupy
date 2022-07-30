@@ -8,7 +8,7 @@ class AioWaifuPyClient:
         Asynchronous WaifyPyClient class constructor.
         """
         self.session = session or aiohttp.ClientSession()
-    
+
     async def close(self):
         """
         Close the session.

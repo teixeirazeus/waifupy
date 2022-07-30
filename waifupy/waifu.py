@@ -8,7 +8,7 @@ class Waifu:
         Contains the url of the image.
         """
         self.url = url
-    
+
     def display_in_webbrowser(self):
         """
         Display the image.

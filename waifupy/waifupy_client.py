@@ -8,7 +8,7 @@ class WaifuPyClient:
         WaifyPyClient class constructor.
         """
         self.session = session or requests.Session()
-    
+
     def close(self):
         """
         Close the session.
@@ -27,7 +27,7 @@ class WaifuPyClient:
         """
         Get a random NSFW image from a specified category.
         Category is optional.
-        """        
+        """
         response = self.session.get(self.BASE_URL + f'/nfsw/{category}')
         return self.__process_response(response)
     
