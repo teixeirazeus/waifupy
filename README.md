@@ -13,8 +13,7 @@ pip install git+https://github.com/teixeirazeus/waifupy
 ### Example 1
 
 ```python
-from waifupy import WaifuPyClient
-from waifupy import WaifuCategory
+from waifupy import WaifuPyClient, WaifuCategory
 
 # Create a WaifuPyClient object
 client = WaifuPyClient()
